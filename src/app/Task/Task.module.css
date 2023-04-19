@@ -1,0 +1,49 @@
+.taskBox {
+    position: relative;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    max-width: 280px;
+    word-break: break-all;
+}
+
+.taskHeaderBlueGreen {
+    background-color: #22DAD8;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    color: #FFF;
+    padding: 16px;
+}
+
+.taskHeaderRed {
+    background-color: #B74D4F;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    color: #FFF;
+    padding: 16px;
+}
+
+.taskFooter {
+    background-color: #F2F2F2 ;
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+    padding: 16px;
+}
+
+.buttonClose {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    margin-top: 7px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.buttonClose:hover {
+    color: #F2D06B;
+}

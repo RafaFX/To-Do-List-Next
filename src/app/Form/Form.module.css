@@ -1,0 +1,16 @@
+.form {
+    justify-content: center;
+    display: flex;
+    margin: 70px;
+    font-weight: 400;
+}
+
+.form form {
+    width: 60%;
+    background-color: #F2F2F2 ;
+    max-width: 80%;
+    padding: 30px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    margin: 20px;
+}

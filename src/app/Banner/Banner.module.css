@@ -1,0 +1,22 @@
+.bannerBlueGreen {
+    background-color: #22DAD8;
+    text-align: center;
+}
+
+.bannerBlueGreen img {
+    max-width: 100%;
+}
+
+.bannerRed {
+    background-color: #B74D4F;
+    text-align: center;
+}
+
+.bannerRed img {
+    max-width: 100%;
+}
+
+.switchTheme {
+    left: 15%;
+    margin-bottom: 19%;
+}

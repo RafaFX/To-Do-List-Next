@@ -1,0 +1,40 @@
+.buttonBlueGreen{
+    display: flex;
+    background-color: #22DAD8;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 128px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.buttonBlueGreen:hover {
+    color: #F2D06B;
+}
+
+.buttonRed {
+    display: flex;
+    background-color:#B74D4F;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 128px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.buttonRed:hover {
+    color: #F2C572;
+}
+
