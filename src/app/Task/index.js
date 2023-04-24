@@ -3,10 +3,11 @@ import { AiFillCloseCircle } from 'react-icons/ai'
 import { memo } from 'react'
 
 
-const Task = ({ task/* : { name, description, date } */, onDelete, id, theme }) => {
-    const name = task.name
-    const description = task.description
-    const date = task.date
+const Task = ({ task: { name, description, date }, onDelete, id, theme }) => {
+    // destructuring da task
+    // const name = task.name
+    // const description = task.description
+    // const date = task.date
 
     console.log(date)
 

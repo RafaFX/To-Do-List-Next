@@ -1,6 +1,6 @@
 'use client'
 import styles from './page.module.css'
-import { memo, useCallback, useState } from 'react';
+import { memo, useState } from 'react';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Form } from './Form';
