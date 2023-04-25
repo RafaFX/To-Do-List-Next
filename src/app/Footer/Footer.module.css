@@ -1,7 +1,6 @@
-.footerBlueGreen{
+.footer{
     padding: 80px;
     height: 264px;
-    background-color: #22DAD8;
     color: #FFF;
     text-align: center;
     display: flex;
@@ -12,18 +11,12 @@
     flex-direction: row;
 }
 
+.footerBlueGreen{
+    background-color: #22DAD8;
+}
+
 .footerRed{
-    padding: 80px;
-    height: 264px;
     background-color: #B74D4F;
-    color: #FFF;
-    text-align: center;
-    display: flex;
-    align-content: center;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
 }
 
 .logoFooter img{

@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 export const Footer = ({theme}) => {
 
     return(
-        <footer className={theme ? styles.footerBlueGreen : styles.footerRed} >
+        <footer className={`${styles.footer} ${theme ? styles.footerBlueGreen : styles.footerRed}`}>
                 <div className={styles.socialMedia}>
                     <a href='https://github.com/RafaFX' target='blank' ><AiFillGithub /></a> 
                     <a href='https://www.linkedin.com/in/rafael-lima-aba771208/' target='blank' ><AiFillLinkedin /></a>
