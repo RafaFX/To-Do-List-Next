@@ -1,7 +1,8 @@
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import styles from './Footer.module.css'
+import { memo } from 'react';
 
-export const Footer = ({theme}) => {
+const Footer = ({theme}) => {
 
     return(
         <footer className={`${styles.footer} ${theme ? styles.footerBlueGreen : styles.footerRed}`}>
@@ -19,6 +20,7 @@ export const Footer = ({theme}) => {
                 </div>
         </footer>
     )
-
 }
+
+export default memo(Footer)
 

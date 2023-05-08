@@ -1,7 +1,8 @@
 import styles from './Banner.module.css'
 import Switch from 'react-switch'
+import { memo } from 'react';
 
-export const Banner = ({ theme,setState }) => {
+const Banner = ({ theme,setState }) => {
     return (
         <header className={theme ? styles.bannerBlueGreen : styles.bannerRed} >
             <img src={theme ? '/images/banner-blue-green.png' : '/images/banner-red.png'} alt='logo' />
@@ -22,3 +23,5 @@ export const Banner = ({ theme,setState }) => {
         </header>
     )
 }
+
+export default memo(Banner);
